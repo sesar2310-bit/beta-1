@@ -1,1 +1,7 @@
-
+<script>
+const a=+prompt ("first number:");
+const op=prompt ("operator (+ - * /):") ;
+const b=+prompt(second number:"); 
+const map=('+':a+b,'_':a-b,'*':a*b,'/':b===0?
+alert('Result: ${map[op] ?? 'Bad operator'}');
+</script>
